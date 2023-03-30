@@ -30,3 +30,5 @@ content: ['./src/**/*.{js,jsx,ts,tsx}'],
 
 
 npm npx 차이 설치하고 쓰냐 설치 안하고 쓰냐
+
+JIT
