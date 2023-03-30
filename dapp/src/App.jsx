@@ -1,7 +1,9 @@
 function App() {
   return (
     <div>
-      <h1>Hello, React!</h1>;<h2>Hello, Newbie!</h2>
+      <h1 className="text-3xl font-bold underline">Hello, React!</h1>
+      <h2 className="text-3xl font-bold underline">Hello, Newbie!</h2>
+      <h3 className="text-3xl font-bold underline"> COKE 😊</h3>
     </div>
   );
 }
