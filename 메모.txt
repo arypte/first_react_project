@@ -1,7 +1,7 @@
 리액트 파일은 main.jsx
 별 차이는 없는데 구분용으로
 
-bem 표기법
+뱀,낙타? 표기법
 
 리액트의 index > css link 는
 맨 위에다가 import "./App.css"
@@ -31,4 +31,14 @@ content: ['./src/**/*.{js,jsx,ts,tsx}'],
 
 npm npx 차이 설치하고 쓰냐 설치 안하고 쓰냐
 
+
 JIT
+
+
+Github 복습 자료
+
+PART 1
+https://github.com/seon-2/bcs_coding_FE
+
+PART2
+https://github.com/seon-2/bcs-part2-react
