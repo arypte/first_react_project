@@ -1,6 +1,8 @@
 import PortfolioCard from './PortFolioCard';
 import nike from '../image/nike.png';
 
+import test2 from '../image/nike.png';
+
 const portfolioData = [
   {
     id: 1,
@@ -30,7 +32,7 @@ const portfolioData = [
     id: 5,
     title: 'Title test5',
     description: 'Des Test5',
-    image: null,
+    image: test2,
   },
   {
     id: 6,
