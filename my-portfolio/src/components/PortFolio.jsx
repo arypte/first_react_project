@@ -1,7 +1,7 @@
 import PortfolioCard from './PortFolioCard';
 import nike from '../image/nike.png';
 
-import test2 from '../image/nike.png';
+import test2 from '../image/test2.png';
 
 const portfolioData = [
   {
