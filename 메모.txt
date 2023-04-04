@@ -42,3 +42,7 @@ https://github.com/seon-2/bcs_coding_FE
 
 PART2
 https://github.com/seon-2/bcs-part2-react
+
+frame work
+
+오늘한게... routing , 다이나믹 routing

@@ -1,7 +1,5 @@
 import PortfolioCard from './PortFolioCard';
-import nike from '../image/nike.png';
-
-import test2 from '../image/test2.png';
+import * as Images from '../image/';
 
 const portfolioData = [
   {
@@ -26,7 +24,7 @@ const portfolioData = [
     id: 4,
     title: 'Title test4',
     description: 'How',
-    image: nike,
+    image: test4,
   },
   {
     id: 5,
@@ -38,7 +36,7 @@ const portfolioData = [
     id: 6,
     title: 'Title test6',
     description: 'Des Test6',
-    image: null,
+    image: test5,
   },
   {
     id: 7,

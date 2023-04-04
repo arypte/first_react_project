@@ -1,23 +1,24 @@
-import './index.css';
-import Header from './components/Header';
-import NikeLogo from './image/nike.png';
-import Introduce from './components/introduce';
-import PortFolio from './components/PortFolio';
-import ConTact from './components/ConTact';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// 주석 처리
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './pages/main';
+import Portfolio from './pages/PortFolio';
+import NotFound from './pages/notfound';
+
 function App() {
   return (
-    <div className="bg-red-100  min-h-screen">
-      <Header />
-      <main>
-        <Introduce />
-        <PortFolio />
-        <ConTact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="bg-red-100 min-h-screen flex flex-col">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/portfolio/:projectId" element={<Portfolio />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

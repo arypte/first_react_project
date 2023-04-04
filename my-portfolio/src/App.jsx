@@ -1,5 +1,4 @@
 import './index.css';
-import NikeLogo from './image/nike.png';
 import Header from './components/Header';
 import Introduce from './components/introduce';
 import PortFolio from './components/PortFolio';
